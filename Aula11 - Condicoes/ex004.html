@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: bisque;
+            
+        }
+
+        article {
+            background-color: rgb(230, 230, 230);
+            width: 300px;
+            height: 250px;
+            padding: 20px;
+            margin: auto;
+            margin-top: 300px;
+            border: 2px solid rgb(230, 230, 230);
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(119, 119, 119, 0.247);
+        }
+
+        article h1 {
+            text-align: center;
+            
+        } 
+        
+        article p {
+            font-size: 0.8em;
+        }
+
+        p > a {
+            color: black;
+            text-decoration: none;
+        }
+
+        p > a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <article>
+            <h1>Sistema de Login</h1>
+            <h3>E-mail:</h3> <input type="email" name="txtemail" id="txtemail" placeholder="Digite seu e-mail">
+            <h3>Senha:</h3> <input type="password" name="txtsenha" id="txtsenha" placeholder="Digite sua senha">
+            <input type="button" value="Verificar" onclick="conferir()" >
+            <p><a href="https://www.google.com" target="_blank" rel="noopener">Esqueceu sua senha ? </a></p>
+            <div id="res">
+            </div>
+            <script>
+                function conferir() {
+                    var email = document.getElementById('txtemail')
+                    var res = document.getElementById('res')
+                    var email = String(txtemail.value)
+                    var senha = document.getElementById('txtsenha')
+                    var senha = Number(txtsenha.value)
+                    if (senha == 261291 && email == 'johnny.live26@gmail.com') {
+                        res.innerHTML = `<p>Senha Correta! </p>`
+                    } else {
+                        res.innerHTML = `<p>Senha incorreta!</p> `
+                    }
+                    
+                }
+            </script>
+        </article>
+    </main>
+</body>
+</html>

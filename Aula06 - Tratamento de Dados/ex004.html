@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratemendo de Strings</title>
+    <style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2em;
+    } 
+    </style>
+</head>
+<body>
+    <h1></h1>
+    <script>
+        var num = Number(window.prompt('Digite um número: ')) 
+        var num2 = Number(window.prompt('Digite outro número: '))
+        soma = num + num2
+        sub = num - num2
+        mult = num * num2
+        div = num / num2
+        
+        document.writeln(`As opereções entre {${num}} e {${num2}}.<br>`)
+        document.writeln(`A soma dos valores é: ${soma.toFixed(2)}<br>`)
+        document.writeln(`A subtração dos valores é: ${sub.toFixed(2)}<br>`)
+        document.writeln(`A subtração dos valores é: ${mult.toFixed(2)}<br>`)
+        document.writeln(`A divisão dos valores é: ${div.toFixed(2)}`)
+    </script>
+</body>
+</html>

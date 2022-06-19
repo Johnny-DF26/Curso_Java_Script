@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Primeiro Programa</title>
     <style>
+
         * {
             margin: 10px;
         }
@@ -15,14 +16,18 @@
             font-family: Arial, Helvetica, sans-serif;
         }
 
+        
     </style>
 </head>
 <body>
     <h1>Aprendendo a Linguagem Java Script</h1>
     <script>
-        window.alert('Minha primeira mensagem');     // aparece na tela uma mensagem 
-        window.confirm('Está gostando de Java Script? ');   // pede uma uma confirmação entre ok ou cancelar
-        window.prompt('Qual é seu nome? ');         // abre uma janela para se digitar algo
+        var n1 = Number(window.prompt('Digite um número: '))
+        var n2 = Number(window.prompt('Digite outro numero: '))
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é: ${s}`) //  concatenação
+        // (number + number) para adição
+        // (string + string) para concatenação
     </script>
 </body>
-</html>
+</html> 
