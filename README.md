@@ -1,5 +1,5 @@
 # Aprendendo-Java-Script
- <h2>Curso de Java Script</h2>
+ <h2>Curso de Java Script básico</h2>
 
 - <h3>Fundamentos</h3>
 - <h3>Variáveis e dados</h3>
