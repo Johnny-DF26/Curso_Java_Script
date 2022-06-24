@@ -8,3 +8,4 @@
 - <h3>Repetções</h3>
 - <h3>Arrays</h3>
 - <h3>Functions</h3>
+- <h3>DOM</h3>
