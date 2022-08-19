@@ -5,4 +5,4 @@ function parOuImpar(n){
         return 'ÍMPAR !'
     }
 }
-console.log(parOuImpar(223))
+console.log(parOuImpar(223));

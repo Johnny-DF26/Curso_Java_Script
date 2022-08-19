@@ -1,25 +1,6 @@
-// const pessoa = {
-//     nome: 'Johnny',
-//     sobreNome: 'Cleyson',
-//     getFullName: function() {
-//         console.log(`${this.nome} ${this.sobreNome}`)
-//     }
-// }
+let num1 = 0.7;
+let num2 = 0.1;
 
-// pessoa.getFullName();
+num1 += num2;
 
-// const pessoa = {
-//     nome: 'Johnny',
-//     sobreNome: 'Alves'
-// }
-
-// const animal = {
-//     nome: 'Snoopy',
-//     sobreNome: 'Ralf'
-// }
-
-// function pegar() {
-//     console.log(`${this.nome} ${this.sobreNome}`);
-// }
-
-// pegar.call(pessoa);
+console.log(num1);

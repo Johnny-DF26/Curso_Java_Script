@@ -1,7 +1,5 @@
-var pais = 'BRASIL'
-console.log(`Vivendo em ${pais}`)
-if (pais == 'BRASIL') {
-    console.log('Você é Brasileiro')
-} else {
-    console.log('Você é Estrangeiro')
+const num = 10;
+
+if (num >= 0 && num <= 5) {
+    console.log('Sim, o número é maior ou igual a zero.');
 }
