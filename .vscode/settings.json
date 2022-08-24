@@ -4,5 +4,6 @@
     "miramac.node.options": [
     
     ],
-    "miramac.node.terminalMode": false
+    "miramac.node.terminalMode": false,
+    "editor.fontFamily": "DejaVu Sans Mono"
 }

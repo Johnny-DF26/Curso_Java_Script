@@ -37,4 +37,5 @@ footer a {
 footer a:hover {
     color: red;
     text-decoration: underline;
+    font-family: 'DejaVuSans','Courier New', Courier, monospace;
 }
