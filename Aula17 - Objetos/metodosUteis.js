@@ -25,7 +25,7 @@ Object.defineProperty(produto, 'nome', {   // Define a propriedade se é visivel
    writable: false,
    configurable: false,
 });
-//console.log(Object.getOwnPropertyDescriptor(produto, 'nome')); // Vai descrever a propriedade 
+console.log(Object.getOwnPropertyDescriptor(produto, 'nome')); // Vai descrever a propriedade 
 
 outraCoisa.nome = 'copo';
 outraCoisa.preco = 1.5;
